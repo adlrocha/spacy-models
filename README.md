@@ -1,6 +1,6 @@
 # Resources and notes for custom SpaCy model generations
 
-Temporary notes:
+v.0.1. Temporary notes. Further explanations and sample model generation will be provided.
 
 -----------------------------
 Create vocabulary Wikipedia
@@ -58,7 +58,5 @@ pip install /Users/you/en_core_web_md-1.2.0.tar.gz
 python -m spacy link [package name or path] [shortcut] [--force]
 
 Link the model so it can be called from SpaCy.
-# set up shortcut link to load installed package as "en_default"
 python -m spacy link en_core_web_md en_default
-# set up shortcut link to load local model as "my_amazing_model"
 python -m spacy link /Users/you/model my_amazing_model
